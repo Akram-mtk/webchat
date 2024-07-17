@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.side_bar{
+    width: 20%;
+    height: 100vh;
+    background: purple;
+    
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile_pic{
+    width: 64px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.profile_name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.chat{
+    width: 80%;
+    height: 100vh;
+    background: green;
+    
+}
